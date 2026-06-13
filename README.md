@@ -14,6 +14,12 @@ An end-to-end Machine Learning pipeline using an imbalance-aware `Logistic Regre
    macro avg       0.95      0.99      0.97      2000
 weighted avg       0.99      0.98      0.99      2000
 ```
+### 📈 Visualizations & Metrics
+| Confusion Matrix | Feature Importance |
+| :---: | :---: |
+| ![Confusion Matrix](confusion_matrix.png) | ![Feature Importance](feature_importance.png) |
+
+
 🛠️ Key Pipeline Architecture
 Outlier Filtering: Automatically drops single-instance target anomalies (Severe) to ensure stable stratified splits.
 
