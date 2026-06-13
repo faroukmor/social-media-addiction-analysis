@@ -13,6 +13,7 @@ An end-to-end Machine Learning pipeline using an imbalance-aware `Logistic Regre
     accuracy                           0.98      2000
    macro avg       0.95      0.99      0.97      2000
 weighted avg       0.99      0.98      0.99      2000
+```
 🛠️ Key Pipeline Architecture
 Outlier Filtering: Automatically drops single-instance target anomalies (Severe) to ensure stable stratified splits.
 
